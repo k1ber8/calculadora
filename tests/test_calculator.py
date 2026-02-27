@@ -1,5 +1,5 @@
 import pytest
-from calculator import suma, resta, multiplicacion, division
+from calculadora.calculator import suma, resta, multiplicacion, division
 
 
 def test_suma():
