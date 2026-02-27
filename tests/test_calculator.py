@@ -19,4 +19,5 @@ def test_division():
 
 
 def test_division_por_cero():
-    assert division(5, 0) == "No se puede dividir entre cero"
+    with pytest.raises(ValueError):
+        division(5, 0)
